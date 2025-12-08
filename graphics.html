@@ -8,9 +8,11 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8" />
     <!-- [if IE ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif] -->
-    <title> Spargus - IT Company HTML Template</title>
-    <meta name="description" content="Spargus – Modern, responsive IT Company HTML Template perfect for showcasing IT services, digital solutions & boosting online sales effortlessly.">
-    <meta name="keywords" content="it company template, it services template, technology website, software company website, digital solutions, responsive it template, it business, technology company, startup website, it solutions, modern it template, best it website, corporate it, it agency, website template for it">
+    <title>Spargus</title>
+    <meta name="description"
+        content="Spargus – Modern, responsive IT Company HTML Template perfect for showcasing IT services, digital solutions & boosting online sales effortlessly.">
+    <meta name="keywords"
+        content="it company template, it services template, technology website, software company website, digital solutions, responsive it template, it business, technology company, startup website, it solutions, modern it template, best it website, corporate it, it agency, website template for it">
     <meta name="author" content="themesflat.com" />
 
     <!-- Mobile Specific Metas -->
@@ -22,6 +24,10 @@
     <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
     <!-- Magnific-popup -->
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css" />
+    <!-- Odometer -->
+    <link rel="stylesheet" href="css/odometer-theme-default.css">
+    <!-- Nice select -->
+    <link rel="stylesheet" href="css/nice-select.css">
     <!-- Swiper -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
@@ -39,7 +45,7 @@
 
 </head>
 
-<body>
+<body class="counter-scroll">
 
     <!-- .preload -->
     <div id="loading">
@@ -59,9 +65,9 @@
     <div class="wrapper position-relative overflow-x-clip">
         <div class="mask mask-1">
             <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" fill="none">
-                <circle cx="400" cy="400" r="325" stroke="url(#d6)" stroke-width="150" />
+                <circle cx="400" cy="400" r="325" stroke="url(#a6)" stroke-width="150" />
                 <defs>
-                    <linearGradient id="d6" x1="176" x2="569" y1="70.5" y2="674"  >
+                    <linearGradient id="a6" x1="176" x2="569" y1="70.5" y2="674">
                         <stop offset="0" stop-color="#fff" stop-opacity="0.05" />
                         <stop offset="1" stop-color="#fff" stop-opacity="0" />
                     </linearGradient>
@@ -72,7 +78,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" fill="none">
                 <circle cx="400" cy="400" r="325" stroke="url(#a7)" stroke-width="150" />
                 <defs>
-                    <linearGradient id="a7" x1="176" x2="569" y1="70.5" y2="674"  >
+                    <linearGradient id="a7" x1="176" x2="569" y1="70.5" y2="674">
                         <stop offset="0" stop-color="#fff" stop-opacity="0.05" />
                         <stop offset="1" stop-color="#fff" stop-opacity="0" />
                     </linearGradient>
@@ -83,7 +89,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" fill="none">
                 <circle cx="350" cy="350" r="285" stroke="url(#a8)" stroke-width="130" />
                 <defs>
-                    <linearGradient id="a8" x1="154" x2="497.875" y1="61.688" y2="589.75"  >
+                    <linearGradient id="a8" x1="154" x2="497.875" y1="61.688" y2="589.75">
                         <stop offset="0" stop-color="#fff" stop-opacity="0.05" />
                         <stop offset="1" stop-color="#fff" stop-opacity="0" />
                     </linearGradient>
@@ -91,45 +97,7 @@
             </svg>
         </div>
         <!-- Top-bar -->
-        <div class="top-bar">
-            <div class="top-bar-inner flex align-items-center justify-content-between">
-                <div class="tf-tb-left">
-                    <ul class="list-topbar-item flex align-items-center">
-                        <li class="top-bar-item">
-                            <i class="icon-location-dot"></i>
-                            <a href="#" target="_blank">Plot 100B - New Muslim Town Lahore </a>
-                        </li>
-                        <li class="top-bar-item">
-                            <i class="icon-email"></i>
-                            <a href="mailto:example@gmail.com">spargussolution@gmail.com</a>
-                        </li>
-                        <li class="top-bar-item">
-                            <i class="icon-phone"></i>
-                            <a href="tel:+1123456889">+92 305 4098803</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="tf-tb-right flex align-items-center">
-
-                    <ul class="list-support flex align-items-center">
-                        <li class="support-item"><a href="#">Help</a></li>
-                        <li class="support-item"><a href="#">Support</a></li>
-                        <li class="support-item"><a href="#">Faqs</a></li>
-                    </ul>
-
-                                        <ul class="post-social">
-                        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61579999870556" class="icon-social"><i class="icon-fb"></i></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/spargus_solutions/" class="icon-social"><i class="icon-instagram"></i></a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com/company/spargussolutions/posts/?feedView=all" class="icon-social"><i class="icon-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- /.top-bar -->
-
-        <!-- Header -->
-      <header class="header header-sticky" id="header">
+        <header class="header header-sticky" id="header">
             <div class="header-content flex justify-content-between align-items-center">
                 <div class="header-left flex align-items-center">
                     <div class="logo logo-header">
@@ -139,88 +107,31 @@
                     </div>
                     <nav class="main-menu">
                         <ul class="menu-primary-menu">
-                            <li class="menu-item current-menu-item">
-                                <a href="index.html" class="item-link body-2">
-                                    <span>
-                                        Home
-                                    </span>
-                                </a>
-                            </li>
+
                             <li class="menu-item">
-                                <a href="about-us.html" class="item-link body-2">
-                                    <span>
-                                        About Us
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                               
-                                    <span>
-                                       <a href="porfolio-list.html"
-                                         class="item-link body-2">Porfolio</a>
-                                    </span>
-                               
-                                <!-- <ul class="sub-menu">
-                                    <li class="sub-menu-item"><a href="porfolio-grid.html"
-                                            class="item-link-2 body-2">Porfolio Grid</a></li>
-                                    <li class="sub-menu-item"><a href="porfolio-list.html"
-                                            class="item-link-2 body-2">Porfolio List</a></li>
-                                    <li class="sub-menu-item"><a href="porfolio-details.html"
-                                            class="item-link-2 body-2">Porfolio Details</a></li>
-                                </ul> -->
-                            </li>
-                            <li class="menu-item">
-                
-                                    <span>
-                                        <a href="services.html"
-                                            class="item-link body-2" >Services</a>
-                                    </span>
-                                
-                                <!-- <ul class="sub-menu">
-                                    <li class="sub-menu-item"><a href="services.html"
-                                            class="item-link-2 body-2">Services</a></li>
-                                    <li class="sub-menu-item"><a href="services-details.html"
-                                            class="item-link-2 body-2">Services Details</a></li>
-                                </ul> -->
+                                <a href="index.html" class="item-link body-2">Home</a>
                             </li>
 
-                            <li class="menu-item ">
-                               
-                                    <span>
-                                      <a href="team.html" class="item-link body-2">Team</a>
-                                    </span>
-                             
-                                <!-- <ul class="sub-menu">
-                                    <li class="sub-menu-item"><a href="team.html" class="item-link-2 body-2">Team</a>
-                                    </li>
-                                    <li class="sub-menu-item"><a href="faq.html" class="item-link-2 body-2">FAQs</a>
-                                    </li>
-                                    <li class="sub-menu-item"><a href="pricing.html" class="item-link-2 body-2">Pricing
-                                            Plan</a></li>
-                                </ul> -->
-                            </li>
-                            <!-- <li class="menu-item menu-item-has-children position-relative">
-                                <a href="javascript:void(0)" class="item-link body-2">
-                                    <span>
-                                        Blog
-                                    </span>
-                                </a>
-                                <ul class="sub-menu">
-                                    <li class="sub-menu-item"><a href="blog-standard.html"
-                                            class="item-link-2 body-2">Blog Standard</a></li>
-                                    <li class="sub-menu-item"><a href="blog-list.html" class="item-link-2 body-2">Blog
-                                            List</a></li>
-                                    <li class="sub-menu-item"><a href="blog-details.html"
-                                            class="item-link-2 body-2">Blog Details</a></li>
-                                </ul>
-                            </li> -->
                             <li class="menu-item">
-                                <a href="contact.html" class="item-link body-2">
-                                    <span>
-                                        Contact Us
-                                    </span>
-                                </a>
+                                <a href="about-us.html" class="item-link body-2">About Us</a>
                             </li>
+
+                            <li class="menu-item">
+                                <a href="porfolio-list.html" class="item-link body-2">Portfolio</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="services.html" class="item-link body-2">Services</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="team.html" class="item-link body-2">Team</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="contact.html" class="item-link body-2">Contact Us</a>
+                            </li>
+
                         </ul>
                     </nav>
                 </div>
@@ -250,382 +161,262 @@
                 </div>
             </div>
         </header>
-        <!-- /.header -->
+
 
         <!-- Page-title -->
 
         <div class="page-title">
             <div class="tf-container">
                 <div class="page-title-content text-center">
-                    <h1 class="title ml-11 split-text effect-right">
-                        Blog Details
+                    <h1 class="title split-text effect-right">
+                        Graphics Designing
                     </h1>
                     <div class="breadkcum">
                         <a href="index.html" class="link-breadkcum body-2 fw-7 split-text effect-right">Home</a>
                         <span class="dot"></span>
-                        <span class="page-breadkcum body-2 fw-7 split-text effect-right"> Tips For Conducting to Usability Studies With Participants</span>
+                        <span class="page-breadkcum body-2 fw-7 split-text effect-right">Service Details</span>
                     </div>
                 </div>
             </div>
         </div>
 
+
         <!-- /.page-title -->
 
         <!-- Main-content -->
 
-        <div class="main-content tf-spacing-2">
-            <div class="tf-container">
-                <div class="row rg-30">
+        <div class="main-content position-relative">
+            <div class="mask mask-service-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" fill="none">
+                    <circle cx="400" cy="400" r="325" stroke="url(#b6)" stroke-width="150"></circle>
+                    <defs>
+                        <linearGradient id="b6" x1="176" x2="569" y1="70.5" y2="674">
+                            <stop offset="0" stop-color="#fff" stop-opacity="0.05"></stop>
+                            <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="tf-container tf-spacing-8">
+                <div class="row">
                     <div class="col-xl-8">
                         <button id="filterShop" class="fillter-btn style-fixed d-xl-none">
                             <i class="icon-sidebar"></i>
                         </button>
-                        <div class="wg-details wg-blog-details">
+                        <div class="wg-details wg-service-details">
+                            <div class="image-blog img-1">
+                                <img src="image/section/service-details-8.webp"
+                                    data-src="image/section/service-details-8.webp" alt="Graphics Designing"
+                                    class="lazyload">
+                            </div>
                             <div class="details-content">
-                                <div class="category-post mb-30 px-lg-15">
-                                    <a href="#" class="item">Design</a>
-                                    <a href="#" class="item">Figma</a>
-                                </div>
-                                <div class="date-user-post flex align-items-center mb-50 px-lg-15 flex-wrap rg-15">
-                                    <div class="user-details">
-                                        <a href="#" class="image-avata"><img src="image/avatar/avata-blog-details.jpg" alt=""></a>
-                                        <div class="user-content">
-                                            <p class="by fw-5">Post By</p>
-                                            <h5 class="name-user fw-5"><a href="#">Martin D. Rubio</a></h5>
-                                        </div>
-                                    </div>
-                                    <div class="date-post">
-                                        <p class="fw-5">Published</p>
-                                        <h5 class="day-post fw-5">December 12, 2024</h5>
-                                    </div>
-                                </div>
-                                <div class="image img-details mb-35">
-                                    <img src="image/blog/img-blog-details-1.jpg" data-src="image/blog/img-blog-details-1.jpg" alt="" class="lazyload">
-                                </div>
-                                <div class="desc mb-40 px-lg-15">
-                                    <div class="desc-flex flex g-20">
-                                        <span class="frame-item fw-7 fs-27">
-                                            S
-                                        </span>
-                                        <span class="lh-30">
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                            laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis
-                                        </span>
-                                    </div>
-                                    <span class="lh-30">beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequature</span>
-                                </div>
-                                <div class="wg-quote mb-50 mx-lg-15 px-lg-15">
-                                    <div class="icon">
-                                        <i class="icon-quote"></i>
-                                    </div>
-                                    <div class="content-quote">
-                                        <div class="title">
-                                            Handling Mounting And Unmounting Of Given
-                                            Navigation Routes In React Native
-                                        </div>
-                                        <div class="name-quote">
-                                            <a href="#" class="lh-30">Johnny M. Martin</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="list-img flex mb-43">
-                                    <div class="image img-detaile-2">
-                                        <img src="image/blog/img-blog-details-2.jpg" data-src="image/blog/img-blog-details-2.jpg" alt="" class="lazyload">
-                                    </div>
-                                    <div class="image img-detaile-3">
-                                        <img src="image/blog/img-blog-details-3.jpg" data-src="image/blog/img-blog-details-3.jpg" alt="" class="lazyload">
-                                    </div>
-                                </div>
-                                <div class="content mb-40 px-lg-15">
-                                    <div class="title fs-26 fw-7 mb-15">
-                                        Get Your Service to Improve Business
-                                    </div>
-                                    <div class="desc lh-30">
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                                    </div>
-                                </div>
-                                <div class="tag-social flex justify-content-between align-items-center mx-lg-15 flex-wrap g-20">
-                                    <div class="left tags flex g-16 align-items-center">
-                                        <span class="fw-7">Tags</span>
-                                        <div class="tabs-list">
-                                            <a href="#" class="tabs-item fw-5">Design </a>
-                                            <a href="#" class="tabs-item fw-5">Figma</a>
-                                            <a href="#" class="tabs-item fw-5">Apps</a>
-                                        </div>
-                                    </div>
-                                    <div class="right social flex g-16 align-items-center">
-                                        <span class="fw-7">Share</span>
-                                        <ul class="post-social style-radius-50 g-10">
-                                            <li><a href="#" class="icon-social"><i class="icon-fb"></i></a></li>
-                                            <li><a href="#" class="icon-social"><i class="icon-X"></i></a></li>
-                                            <li><a href="#" class="icon-social"><i class="icon-linkedin"></i></a></li>
-                                            <li><a href="#" class="icon-social"><i class="icon-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
+                                <h3 class="title">Professional Graphic Designing for Modern Brands</h3>
+                                <div class="desc">
+                                    <p class="lh-30">
+                                        Graphic designing transforms ideas into powerful visuals that elevate your brand
+                                        identity.
+                                        We create engaging, creative, and visually consistent designs that help
+                                        businesses stand out
+                                        in the digital and print world.
+                                    </p>
+                                    <p class="lh-30">
+                                        From logo creation and branding to marketing materials, UI/UX designs, and
+                                        social media
+                                        graphics, we deliver high-quality solutions that highlight your brand’s message
+                                        with clarity,
+                                        creativity, and impact.
+                                    </p>
                                 </div>
                             </div>
 
-                            <div class="author mb-50 px-lg-15">
-                                <a href="#" class="image">
-                                    <img src="image/avatar/avatar-author.jpg" data-src="image/avatar/avatar-author.jpg" alt="" class="lazyload">
-                                </a>
-                                <div class="author-content">
-                                    <h5 class="name fw-5"><a href="#">Richard M. Fudge</a></h5>
-                                    <div class="text fw-5">
-                                        We denounce with righteous indignation and dislike men beguiled
-                                        demoralized by the charms of pleasure of the moment
+                            <div class="details-content-2">
+                                <h4 class="title">Our Core Graphic Designing Services Include:</h4>
+                                <p class="desc lh-30">
+                                    We use industry-leading tools like Adobe Photoshop, Illustrator, Figma, and Canva to
+                                    produce
+                                    premium-quality designs that align with your business goals and captivate your
+                                    audience.
+                                </p>
+
+                                <div class="list-features">
+
+                                    <div class="features-item">
+                                        <div class="number-features fw-7">1</div>
+                                        <div class="item-content">
+                                            <a href="#" class="body-2 fw-7">Branding & Logo Design</a>
+                                            <p class="text lh-30">
+                                                We craft memorable logos, brand guidelines, and visual identities that
+                                                reflect your
+                                                brand’s personality and leave a lasting impression.
+                                            </p>
+                                        </div>
                                     </div>
-                                    <ul class="post-social">
-                                        <li><a href="#" class="icon-social"><i class="icon-fb"></i></a></li>
-                                        <li><a href="#" class="icon-social"><i class="icon-X"></i></a></li>
-                                        <li><a href="#" class="icon-social"><i class="icon-linkedin"></i></a></li>
-                                        <li><a href="#" class="icon-social"><i class="icon-instagram"></i></a></li>
-                                    </ul>
+
+                                    <div class="features-item">
+                                        <div class="number-features fw-7">2</div>
+                                        <div class="item-content">
+                                            <a href="#" class="body-2 fw-7">UI/UX & Web Design</a>
+                                            <p class="text lh-30">
+                                                We design intuitive, visually appealing UI/UX for websites, mobile apps,
+                                                and digital
+                                                platforms to enhance user experience and engagement.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="features-item">
+                                        <div class="number-features fw-7">3</div>
+                                        <div class="item-content">
+                                            <a href="#" class="body-2 fw-7">Marketing & Social Media Graphics</a>
+                                            <p class="text lh-30">
+                                                From banners and posters to social media posts and advertising
+                                                creatives, we create
+                                                compelling designs that boost marketing performance.
+                                            </p>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-
-                            <div class="recent-news flex justify-content-between align-items-center mx-lg-15 flex-wrap g-30">
-                                <div class="tf-post-list style-small hover-img align-items-center">
-                                    <a href="blog-details.html" class="image">
-                                        <img src="image/blog/post-list-1.jpg" data-src="image/blog/post-list-1.jpg" alt="" class=" ls-is-cached lazyloaded">
-                                    </a>
-                                    <div class="post-content">
-                                        <div class="post-date">
-                                            <i class="icon-calendar-days"></i>
-                                            <span>Dec 12, 2025</span>
-                                        </div>
-                                        <a href="blog-details.html" class="body-2">
-                                            Tips For Conducting Studie
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="tf-post-list style-small hover-img align-items-center">
-                                    <a href="blog-details.html" class="image">
-                                        <img src="image/blog/post-list-2.jpg" data-src="image/blog/post-list-2.jpg" alt="" class=" ls-is-cached lazyloaded">
-                                    </a>
-                                    <div class="post-content">
-                                        <div class="post-date">
-                                            <i class="icon-calendar-days"></i>
-                                            <span>Dec 12, 2025</span>
-                                        </div>
-                                        <a href="blog-details.html" class="body-2">
-                                            Usability With Participants
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="comment mx-lg-15">
-                                <h4 class="title">
-                                    Comments
-                                </h4>
-                                <div class="comment-item">
-                                    <a href="#" class="image">
-                                        <img src="image/avatar/avatar-comment-1.jpg" data-src="image/avatar/avatar-comment-1.jpg" alt="" class="lazyload">
-                                    </a>
-                                    <div class="comment-content">
-                                        <div class="top">
-                                            <a href="#" class="name body-2 fw-5">William L. Jackson</a>
-                                            <span class="dot"></span>
-                                            <div class="date">May 25, 2023</div>
-                                        </div>
-                                        <div class="text lh-30 line-clamp-2">
-                                            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-                                            molestiae consequatur qui dolorem eum fugiat voluptas
-                                        </div>
-                                        <a href="#" class="tf-btn no-bg text-medium">
-                                            <span>Reply</span>
-                                            <i class="icon-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="comment-item reply">
-                                    <a href="#" class="image">
-                                        <img src="image/avatar/avatar-comment-2.jpg" data-src="image/avatar/avatar-comment-2.jpg" alt="" class="lazyload">
-                                    </a>
-                                    <div class="comment-content">
-                                        <div class="top">
-                                            <a href="#" class="name body-2 fw-5">James M. Stovall</a>
-                                            <span class="dot"></span>
-                                            <div class="date">May 25, 2023</div>
-                                        </div>
-                                        <div class="text lh-30 line-clamp-2">
-                                            At vero eoset accusamus dignissimos ducimus blanditiis sapiente praesentium voluptatum deleniti atque
-                                        </div>
-                                        <a href="#" class="tf-btn no-bg text-medium">
-                                            <span>Reply</span>
-                                            <i class="icon-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <form action="@" class="form-comment write-review px-lg-15">
-                                <h4 class="title">
-                                    Leave A Reply
-                                </h4>
-                                <div class="cols g-20 mb-40">
-                                    <fieldset class="item">
-                                        <i class="icon-user"></i>
-                                        <input type="text" placeholder="Full Name" required>
-                                    </fieldset>
-                                    <fieldset class="item">
-                                        <i class="icon-email"></i>
-                                        <input type="email" placeholder="Email Address" required>
-                                    </fieldset>
-                                </div>
-                                <fieldset class="mb-40">
-                                    <label class="mb-22 body-2 font-family-2">Message</label>
-                                    <textarea placeholder="Write message" required></textarea>
-                                </fieldset>
-                                <div class="bottom-btn">
-                                    <button type="submit" class="tf-btn">
-                                        <span>Leave A Reply</span>
-                                        <i class="icon-arrow-right"></i>
-                                    </button>
-                                </div>
-                            </form>
                         </div>
                     </div>
 
                     <div class="col-xl-4">
-                        <div class="tf-sidebar sidebar-filter right">
+                        <div class="tf-sidebar sidebar-filter right no-bg">
+
                             <div class="header-fillter flex justify-content-between align-items-center d-xl-none mb-30">
                                 <h3 class="title">
-                                    Fillter
+                                    Filter
                                 </h3>
                                 <span class="icon-close close-filter"></span>
                             </div>
-                            <div class="sidebar-item sidebar-search">
 
+                            <div class="sidebar-item sidebar-content sidebar-categories mb-40 bg-dark-2 px-sm-15">
                                 <h5 class="title-content fw-5">
-                                    Search
-                                </h5>
-
-                                <form action="#" class="form-search-siderbar">
-                                    <fieldset>
-                                        <input type="text" placeholder="Keywords">
-                                        <a href="#" class="tf-btn-search"><i class="icon-magnifying-glass"></i></a>
-                                    </fieldset>
-                                </form>
-                            </div>
-
-                            <div class="sidebar-item sidebar-content sidebar-categories mb-40">
-                                <h5 class="title-content fw-5">
-                                    Category
+                                    Popular Graphic Designing Services
                                 </h5>
                                 <ul class="list">
                                     <li class="item">
                                         <i class="icon-arrow-right"></i>
-                                        <a href="#" class="body-2 fw-5">Web Design</a>
+                                        <a href="#" class="body-2 fw-5">Logo & Brand Identity</a>
                                     </li>
                                     <li class="item">
                                         <i class="icon-arrow-right"></i>
-                                        <a href="#" class="body-2 fw-5">Mobile Apps Design</a>
+                                        <a href="#" class="body-2 fw-5">UI/UX & Website Design</a>
                                     </li>
                                     <li class="item">
                                         <i class="icon-arrow-right"></i>
-                                        <a href="#" class="body-2 fw-5">Brand Identity Design</a>
+                                        <a href="#" class="body-2 fw-5">Social Media & Marketing Graphics</a>
                                     </li>
                                     <li class="item">
                                         <i class="icon-arrow-right"></i>
-                                        <a href="#" class="body-2 fw-5">Motion Graphic Design</a>
+                                        <a href="#" class="body-2 fw-5">Business Cards & Stationery</a>
                                     </li>
                                     <li class="item">
                                         <i class="icon-arrow-right"></i>
-                                        <a href="#" class="body-2 fw-5">Web Development</a>
+                                        <a href="#" class="body-2 fw-5">Brochures & Flyers</a>
                                     </li>
                                     <li class="item">
                                         <i class="icon-arrow-right"></i>
-                                        <a href="#" class="body-2 fw-5">Digital Marketing</a>
+                                        <a href="#" class="body-2 fw-5">Packaging Design</a>
+                                    </li>
+                                    <li class="item">
+                                        <i class="icon-arrow-right"></i>
+                                        <a href="#" class="body-2 fw-5">Illustrations & Custom Artwork</a>
+                                    </li>
+                                    <li class="item">
+                                        <i class="icon-arrow-right"></i>
+                                        <a href="#" class="body-2 fw-5">Banner & Poster Design</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="sidebar-item sidebar-content sidebar-recent-posts">
-                                <h4 class="title-content fw-5">
-                                    Latest News
-                                </h4>
-                                <div class="tf-post-list style-small hover-img">
-                                    <a href="blog-details.html" class="image">
-                                        <img src="image/blog/post-list-1.jpg" data-src="image/blog/post-list-1.jpg" alt="" class=" ls-is-cached lazyloaded">
-                                    </a>
-                                    <div class="post-content">
-                                        <div class="post-date">
-                                            <i class="icon-email"></i>
-                                            <span>Dec 12, 2025</span>
-                                        </div>
-                                        <a href="blog-details.html" class="body-2">
-                                            Tips For Conducting Studie
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="tf-post-list style-small hover-img">
-                                    <a href="blog-details.html" class="image">
-                                        <img src="image/blog/post-list-2.jpg" data-src="image/blog/post-list-2.jpg" alt="" class=" ls-is-cached lazyloaded">
-                                    </a>
-                                    <div class="post-content">
-                                        <div class="post-date">
-                                            <i class="icon-email"></i>
-                                            <span>Dec 12, 2025</span>
-                                        </div>
-                                        <a href="blog-details.html" class="body-2">
-                                            Usability With Participants
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="tf-post-list style-small hover-img">
-                                    <a href="blog-details.html" class="image">
-                                        <img src="image/blog/post-list-3.jpg" data-src="image/blog/post-list-3.jpg" alt="" class=" ls-is-cached lazyloaded">
-                                    </a>
-                                    <div class="post-content">
-                                        <div class="post-date">
-                                            <i class="icon-email"></i>
-                                            <span>Dec 12, 2025</span>
-                                        </div>
-                                        <a href="blog-details.html" class="body-2">
-                                            Online Environment Work
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="sidebar-item sidebar-tags mb-50">
-                                <h4 class="title-content fw-5">
-                                    Popular Tags
-                                </h4>
-                                <div class="tabs-list">
-                                    <a href="#" class="tabs-item fw-5">Design </a>
-                                    <a href="#" class="tabs-item fw-5">Figma</a>
-                                    <a href="#" class="tabs-item fw-5">Apps</a>
-                                    <a href="#" class="tabs-item fw-5">Branding</a>
-                                    <a href="#" class="tabs-item fw-5">Development</a>
-                                    <a href="#" class="tabs-item fw-5">Digital</a>
-                                    <a href="#" class="tabs-item fw-5">Mobile Apps</a>
-                                </div>
+                            <div class="sidebar-item sidebar-content sidebar-contact bg-dark-2 px-sm-15">
+                                <h3 class="title-content fw-5 lh-35">
+                                    Get Free
+                                    <br><span class="fw-5"> Consultation ?</span>
+                                </h3>
+                                <form id="contactform" class="form-contact-us sidebar-form" method="post"
+                                    action="./contact/contact-process.php">
+
+                                    <fieldset class="mb-20">
+                                        <input type="text" name="name" id="name" placeholder="Full Name" required>
+                                    </fieldset>
+
+                                    <fieldset class="mb-20">
+                                        <input type="email" name="mail" id="mail" placeholder="Email" required>
+                                    </fieldset>
+
+                                    <div class="nice-select mb-20">
+                                        <span class="current caption-1">Subject</span>
+                                        <ul class="list">
+                                            <li class="option option-all selected focus">Subject</li>
+                                            <li class="option">Logo & Branding</li>
+                                            <li class="option">UI/UX Design</li>
+                                            <li class="option">Social Media Graphics</li>
+                                            <li class="option">Graphic Design Consultation</li>
+                                        </ul>
+                                    </div>
+
+                                    <fieldset class="mb-20">
+                                        <textarea name="message" id="message" placeholder="Write message"
+                                            required></textarea>
+                                    </fieldset>
+
+                                    <button type="submit" class="tf-btn w-full justify-content-center">
+                                        <span> Get Consultation</span>
+                                        <i class="icon-arrow-right"></i>
+                                    </button>
+
+                                </form>
                             </div>
 
                             <div class="sidebar-banner box-item">
                                 <div class="box-content px-sm-15">
                                     <p class="sub-title">
-                                        Get A Quote
+                                        Need Creative Designers?
                                     </p>
-                                    <h4 class="title">Looking For Creative Web Designer</h4>
+                                    <h4 class="title">Looking For a Professional Graphic Designer?</h4>
                                     <a href="#" class="tf-btn">
                                         <span>Hire Me</span>
                                         <i class="icon-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
+
                         </div>
                     </div>
-
                 </div>
+            </div>
+
+            <div class="next-prev-details tf-spacing-9">
+                <div class="tf-container">
+                    <div class="row rg-50">
+                        <div class="col-sm-6">
+                            <div class="prev-details next-prev-item">
+
+                                <a href="services-details.html" class="image">
+                                    <img src="image/section/service-details-prev_8.jpg"
+                                        data-src="image/section/service-details-prev_8.jpg" alt="" class="lazyload">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="next-details next-prev-item">
+
+                                <a href="services-details.html" class="image">
+                                    <img src="image/section/service-details-next_8.jpg"
+                                        data-src="image/section/service-details-next_8.jpg" alt="" class="lazyload">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
         <!-- /.main-content -->
-
     <footer class="footer" id="footer">
         <div class="mask mask-1">
             <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" fill="none">
@@ -933,7 +724,6 @@
             </div>
         </div>
     </footer>
-
         <!-- Mobile-nav-wrap -->
         <div class="offcanvas offcanvas-start mobile-nav-wrap" id="canvasMobile">
             <div class="inner-mobile-nav">
@@ -944,9 +734,12 @@
                         </a>
                     </div>
                     <button class="mobile-nav-close" data-bs-dismiss="offcanvas" aria-label="Close">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="white" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 122.878 122.88" enable-background="new 0 0 122.878 122.88" xml:space="preserve">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="white"
+                            x="0px" y="0px" width="20px" height="20px" viewBox="0 0 122.878 122.88"
+                            enable-background="new 0 0 122.878 122.88" xml:space="preserve">
                             <g>
-                                <path d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z">
+                                <path
+                                    d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z">
                                 </path>
                             </g>
                         </svg>
@@ -954,34 +747,34 @@
                 </div>
                 <nav class="mobile-main-nav">
                     <ul id="menu-mobile" class="menu">
-                        <li class="menu-item">
+                        <li class="menu-item current-menu-mobile-item">
                             <a href="index.html">Home</a>
                         </li>
                         <li class="menu-item">
                             <a href="about-us.html">About Us</a>
                         </li>
-                        <li class="menu-item menu-item-has-children-mobile">
-                            <a href="#dropdown-menu-3" data-bs-toggle="collapse" class="collapsed">Porfolio</a>
-                            <div id="dropdown-menu-3" class="collapse" data-bs-parent="#menu-mobile">
+                        <li class="menu-item">
+                            <a href="porfolio-list.html" data-bs-toggle="collapse" class="collapsed">Porfolio</a>
+                            <!-- <div id="dropdown-menu-3" class="collapse" data-bs-parent="#menu-mobile">
                                 <ul class="sub-menu-mobile">
                                     <li class="menu-item"><a href="porfolio-grid.html">Porfolio Grid</a></li>
                                     <li class="menu-item"><a href="porfolio-list.html">Porfolio List</a></li>
                                     <li class="menu-item"><a href="porfolio-details.html">Porfolio Details</a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </li>
-                        <li class="menu-item menu-item-has-children-mobile">
-                            <a href="#dropdown-menu-2" data-bs-toggle="collapse" class="collapsed">Services</a>
-                            <div id="dropdown-menu-2" class="collapse" data-bs-parent="#menu-mobile">
+                        <li class="menu-item">
+                            <a href="services.html" data-bs-toggle="collapse" class="collapsed">Services</a>
+                            <!-- <div id="dropdown-menu-2" class="collapse" data-bs-parent="#menu-mobile">
                                 <ul class="sub-menu-mobile">
                                     <li class="menu-item"><a href="services.html">Services</a></li>
                                     <li class="menu-item"><a href="services-details.html">Services Details</a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </li>
 
 
-                        <li class="menu-item menu-item-has-children-mobile">
+                        <!-- <li class="menu-item menu-item-has-children-mobile">
                             <a href="#dropdown-menu-4" data-bs-toggle="collapse" class="collapsed">Pages</a>
                             <div id="dropdown-menu-4" class="collapse" data-bs-parent="#menu-mobile">
                                 <ul class="sub-menu-mobile" id="sub-menu-mobile-1">
@@ -990,17 +783,17 @@
                                     <li class="menu-item"><a href="pricing.html">Pricing Plan</a></li>
                                 </ul>
                             </div>
-                        </li>
-                        <li class="menu-item menu-item-has-children-mobile current-menu-mobile-item">
+                        </li> -->
+                        <!-- <li class="menu-item menu-item-has-children-mobile">
                             <a href="#dropdown-menu-6" data-bs-toggle="collapse" class="collapsed">Blog</a>
                             <div id="dropdown-menu-6" class="collapse" data-bs-parent="#menu-mobile">
                                 <ul class="sub-menu-mobile">
                                     <li class="menu-item"><a href="blog-standard.html">Blog Standard</a></li>
                                     <li class="menu-item"><a href="blog-list.html">Blog List</a></li>
-                                    <li class="menu-item current-menu-mobile-item"><a href="blog-details.html">Blog Details</a></li>
+                                    <li class="menu-item"><a href="blog-details.html">Blog Details</a></li>
                                 </ul>
                             </div>
-                        </li>
+                        </li> -->
                         <li class="menu-item">
                             <a href="contact.html">Contact Us</a>
                         </li>
@@ -1008,13 +801,16 @@
                     <div class="contact-mobile">
                         <h5 class="title-contact-mobile">Contact Info</h5>
                         <ul class="mb-20">
-                            <li class="content-contact-moblile"><i class="icon-location-dot"></i> <a href="#" class="text-medium">Plot 100B - New Muslim Town Lahore </a>
+                            <li class="content-contact-moblile"><i class="icon-location-dot"></i> <a href="#"
+                                    class="text-medium">Plot 100B - New Muslim Town Lahore </a>
                             </li>
                             <li class="content-contact-moblile">
-                                <i class="icon-email"></i><a href="mailto:example@gmail.com" class="text-medium">spargussolution@gmail.com</a>
+                                <i class="icon-email"></i><a href="mailto:example@gmail.com"
+                                    class="text-medium">spargussolution@gmail.com</a>
                             </li>
                             <li class="content-contact-moblile">
-                                <i class="icon-phone"></i><a href="tel:+1123456889" class="text-medium">+92 305 4098803</a>
+                                <i class="icon-phone"></i><a href="tel:+1123456889" class="text-medium">+92 305
+                                    4098803</a>
                             </li>
                         </ul>
 
@@ -1041,7 +837,9 @@
                 </a>
             </div>
             <div class="desc lh-30">
-                We provide comprehensive IT services, including web design, software development, and technology solutions to help businesses with digital transformation, operational efficiency, and sustainable growth.
+                We provide comprehensive IT services, including web design, software development, and technology
+                solutions to help businesses with digital transformation, operational efficiency, and sustainable
+                growth.
             </div>
 
             <div class="contact-mega-menu meag-menu-item">
@@ -1049,20 +847,20 @@
                     <li>
                         <p class="lh-30">Address:
                             <a href="#" target="_blank">
-                                70 Washington Square South, New York, NY 10012, United States
+                                Plot 100B - New Muslim Town Lahore, Pakistan
                             </a>
                         </p>
                     </li>
                     <li>
                         <p class="lh-30">Email:
-                            <a href="mailto:example@gmail.com">
-                                example@gmail.com
+                            <a href="mailto:spargussolution@gmail.com">
+                                spargussolution@gmail.com
                             </a>
                         </p>
                     </li>
                     <li>
-                        <p class="lh-30"> Call: <a href="tel:+00012345688">
-                                +000 (123) 456 88</a>
+                        <p class="lh-30"> Call: <a href="tel:+923054098803">
+                                +92 305 4098803</a>
                         </p>
                     </li>
                 </ul>
@@ -1070,23 +868,25 @@
 
             <div class="megamenu-subscribe">
                 <h5 class="title-content">
-                    Newsletter Subscribe
+                    Subscribe
                 </h5>
                 <form class="form-newsletter2 subscribe-form" accept-charset="utf-8" data-mailchimp="true">
-                    <input type="email" name="email-form" class="subscribe-email" placeholder="Email address" tabindex="0" aria-required="true" required="">
+                    <input type="email" name="email-form" class="subscribe-email" placeholder="Email address"
+                        tabindex="0" aria-required="true" required="">
                     <button class="subscribe-button tf-btn-newsletter">
                         <i class="icon-send"></i>
                     </button>
                 </form>
             </div>
 
-            <div class="megamenu-recent">
+            <!-- <div class="megamenu-recent">
                 <h4 class="title-content">
                     Recent News
                 </h4>
                 <div class="tf-post-list style-small hover-img">
                     <a href="blog-details.html" class="image">
-                        <img src="image/blog/post-list-1.jpg" data-src="image/blog/post-list-1.jpg" alt="" class=" ls-is-cached lazyloaded">
+                        <img src="image/blog/post-list-1.jpg" data-src="image/blog/post-list-1.jpg" alt=""
+                            class=" ls-is-cached lazyloaded">
                     </a>
                     <div class="post-content">
                         <div class="post-date">
@@ -1100,7 +900,8 @@
                 </div>
                 <div class="tf-post-list style-small hover-img">
                     <a href="blog-details.html" class="image">
-                        <img src="image/blog/post-list-2.jpg" data-src="image/blog/post-list-2.jpg" alt="" class=" ls-is-cached lazyloaded">
+                        <img src="image/blog/post-list-2.jpg" data-src="image/blog/post-list-2.jpg" alt=""
+                            class=" ls-is-cached lazyloaded">
                     </a>
                     <div class="post-content">
                         <div class="post-date">
@@ -1114,7 +915,8 @@
                 </div>
                 <div class="tf-post-list style-small hover-img">
                     <a href="blog-details.html" class="image">
-                        <img src="image/blog/post-list-3.jpg" data-src="image/blog/post-list-3.jpg" alt="" class=" ls-is-cached lazyloaded">
+                        <img src="image/blog/post-list-3.jpg" data-src="image/blog/post-list-3.jpg" alt=""
+                            class=" ls-is-cached lazyloaded">
                     </a>
                     <div class="post-content">
                         <div class="post-date">
@@ -1126,7 +928,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
         <!-- /.offcanvasMegamenu -->
@@ -1134,7 +936,8 @@
         <!-- Go-top -->
         <div class="progress-wrap">
             <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 277.672;">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                    style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 277.672;">
                 </path>
             </svg>
         </div>
@@ -1157,6 +960,9 @@
     <script src="js/ScrollSmooth.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/odometer.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-validate.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
     <script src="js/sibforms.js" defer></script>
@@ -1179,7 +985,18 @@
         var AUTOHIDE = Boolean(0); 
     </script>
     <!-- /Javascript -->
+    <script>
+        const currentPage = window.location.pathname.split("/").pop();
 
+        document.querySelectorAll(".menu-primary-menu .menu-item a")
+            .forEach(link => {
+                let linkPage = link.getAttribute("href");
+
+                if (linkPage === currentPage || (linkPage === "index.html" && currentPage === "")) {
+                    link.parentElement.classList.add("current-menu-item");
+                }
+            });
+    </script>
 
 </body>
 

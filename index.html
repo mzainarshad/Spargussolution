@@ -118,35 +118,35 @@
                             <img src="image/logo/Sparguslogo.png" alt="">
                         </a>
                     </div>
-<nav class="main-menu">
-    <ul class="menu-primary-menu">
+                    <nav class="main-menu">
+                        <ul class="menu-primary-menu">
 
-        <li class="menu-item">
-            <a href="index.html" class="item-link body-2">Home</a>
-        </li>
+                            <li class="menu-item">
+                                <a href="index.html" class="item-link body-2">Home</a>
+                            </li>
 
-        <li class="menu-item">
-            <a href="about-us.html" class="item-link body-2">About Us</a>
-        </li>
+                            <li class="menu-item">
+                                <a href="about-us.html" class="item-link body-2">About Us</a>
+                            </li>
 
-        <li class="menu-item">
-            <a href="porfolio-list.html" class="item-link body-2">Portfolio</a>
-        </li>
+                            <li class="menu-item">
+                                <a href="porfolio-list.html" class="item-link body-2">Portfolio</a>
+                            </li>
 
-        <li class="menu-item">
-            <a href="services.html" class="item-link body-2">Services</a>
-        </li>
+                            <li class="menu-item">
+                                <a href="services.html" class="item-link body-2">Services</a>
+                            </li>
 
-        <li class="menu-item">
-            <a href="team.html" class="item-link body-2">Team</a>
-        </li>
+                            <li class="menu-item">
+                                <a href="team.html" class="item-link body-2">Team</a>
+                            </li>
 
-        <li class="menu-item">
-            <a href="contact.html" class="item-link body-2">Contact Us</a>
-        </li>
+                            <li class="menu-item">
+                                <a href="contact.html" class="item-link body-2">Contact Us</a>
+                            </li>
 
-    </ul>
-</nav>
+                        </ul>
+                    </nav>
 
                 </div>
                 <div class="header-right">
@@ -1947,6 +1947,9 @@
                                 </li>
                                 <li class="support-item-footer"><a href="ai-development-services.html">AI
                                         Development</a></li>
+                                <li class="support-item-footer"><a href="graphics.html">Graphics Designing
+                                        </a></li>
+                                <li class="support-item-footer"><a href="marketing.html">Digital Marketing</a></li>
                             </ul>
                         </div>
                     </div>
@@ -2261,18 +2264,18 @@
         var AUTOHIDE = Boolean(0); 
     </script>
     <!-- /Javascript -->
-<script>
-    const currentPage = window.location.pathname.split("/").pop();
+    <script>
+        const currentPage = window.location.pathname.split("/").pop();
 
-    document.querySelectorAll(".menu-primary-menu .menu-item a")
-        .forEach(link => {
-            let linkPage = link.getAttribute("href");
+        document.querySelectorAll(".menu-primary-menu .menu-item a")
+            .forEach(link => {
+                let linkPage = link.getAttribute("href");
 
-            if (linkPage === currentPage || (linkPage === "index.html" && currentPage === "")) {
-                link.parentElement.classList.add("current-menu-item");
-            }
-        });
-</script>
+                if (linkPage === currentPage || (linkPage === "index.html" && currentPage === "")) {
+                    link.parentElement.classList.add("current-menu-item");
+                }
+            });
+    </script>
 
 
 </body>
